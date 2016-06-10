@@ -20,5 +20,11 @@
 
         <context>chef-identity</context>
     </web-resource>
+
+    <web-item key="bamboo-menu-item" name="Chef Identity Admin" section="system.admin/plugins" weight="10" application="bamboo">
+        <description>Add or Configure Chef Server Identities (key files)</description>
+        <label key="Chef Identity Keys" />
+        <link linkId="chef-identity-admin-link">/plugins/servlet/chef-identity/admin</link>
+    </web-item>
     
 </atlassian-plugin>
